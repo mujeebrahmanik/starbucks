@@ -1,7 +1,22 @@
+.navbar{
+    position: relative;
+    height: 80px;
+}
+
+.nav1{
+    position: absolute;
+    left: 80px;
+}
+form{
+    position: absolute;
+    right: 150px;
+}
+
 #i1{
     width: 40px;
 }
 #search{
+    
     width:250px;
     border-radius: 20px;
     font-size: small;
@@ -13,7 +28,10 @@
 
 }
 #u1{
+    position: absolute;
     width:  30px;
+    right: 117px;
+    bottom: 10px;
 }
 #home{
     font-weight: bold;
@@ -26,7 +44,8 @@
     text-decoration-line: underline;
 }
 .nav-item{
-    padding-left: 40px;
+    padding-left: 20px;
+    
 }
 form{
     padding-right: 80px;
@@ -37,6 +56,7 @@ body{
     overflow-x: hidden;
 }
 #r2{
+    position: relative;
     width: 120%;
     height: 80px;
     background-color: #1e3932;
@@ -44,7 +64,8 @@ body{
 }
 #p1{
     padding-top: 25px;
-    padding-left: 100px;
+    position: absolute;
+    left: 110px;
     font-size: larger;
     font-family: Helvetica,sans-serif;
     font-weight: 100;
@@ -54,6 +75,7 @@ body{
     box-shadow: 1px 1px #afaeae;
 }
 #b1{
+    
     background-color: #1e3932;
     border-radius: 20px;
     width: 100px;
@@ -63,17 +85,18 @@ body{
     color: white;
     font-weight: bold;
     border: solid white 1px;
-    margin-left: 640px;
+    
+}
+#knwmr{
+    position: absolute;
+    left: 1020px;
+    top: 25px;
 }
 #h3{
     font-weight: bold;
     color: #1e3932;
     padding-left: 110px;
     padding-top: 25px;
-}
-#r3{
-    margin-left: 40px;
-    margin-top: -30px;
 }
 .image{
     width: 250px;
@@ -110,12 +133,12 @@ body{
 }
 .button1{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 51%;
+    left: 45%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #00754a;
-    width: 200px;
+    width: 163px;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -135,19 +158,25 @@ body{
     padding-top: 25px;
     
 }
-#h5{
-    margin-left: 100px;
-    font-weight: bold;
+.heading{
+    left: 100px;
+    font-weight: bolder;
     color: #1e3932;
-    padding-top: 25px;
+    top: 20px;
+    position: absolute;
+    font-size: 22px;
+}
+#hhh{
+    left: 38px;
+    font-weight: bolder;
+    color: #1e3932;
+    top: 20px;
+    position: absolute;
+    font-size: 22px;
 }
 #c1{
     margin-top: 40px;
 }
-.card{
-    padding:0;
-    
-  }
   /* .card-wrapper{
     
   } */
@@ -204,8 +233,9 @@ body{
 
 }
 .card{
-    height: 400px;
+    height: 407px;
     box-shadow:  -4px 3px 5px 0px rgba(0,0,0,0.17);
+    /* border-radius: 5px 5px 5px 5px; */
     /* box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.17); */
 }
 .non{
@@ -228,6 +258,9 @@ body{
 #card12,#card11{
     border-radius: 10px;
     border: 1px;
+    position: relative;
+    top: 60px;
+    left: -40px;
 }
 #card{
     background-color: #EDEBE9;
@@ -259,11 +292,16 @@ body{
     margin-top: -88px;
     margin-left: 120px;
 }
-#cdpr,#cdpr1{
-    margin-top: 7px;
-    margin-left: 10px;
+.cdpr{
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+    
 }
 .button3{
+    position: absolute;
+    right: 30px;
+    bottom: 13px;
     background-color: #00754a;
     width: 85px;
     border-radius: 15px;
@@ -276,23 +314,28 @@ body{
 }
 .side{
     /* margin-right: 10px; */
-    margin-top: 30px;
+    position: absolute;
+    right: 100px;
+    top: 20px;
     font-weight: bold;
     font-size: small;
     color: #00754a;
 }
-/* #last1{
-    margin-top: -10px;
-} */
+#last1{
+    position: relative;
+}
 #li{
-    width: 100%;
+    position: relative;
+    width: 95%;
     height: 380px;
     border-radius: 7px;
+    top: 20px;
+    left: 30px;
 }
 .button4{
     position: absolute;
-    /* top: 50%;
-    left: 50%; */
+    bottom: -30px;
+    left: 50px ; 
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #ffffff;
@@ -309,15 +352,12 @@ body{
     height: 34px;
 
 } 
-#l2{
-    display: flex;
-    align-items: start;
-}
+
 #li:hover{
     filter: brightness(50%);
 }
 #last{
-    height: 550px;
+    height: 490px;
 }
 #footer{
     margin-top: 90px;
@@ -361,4 +401,38 @@ a:link,a:visited{
 span{
     
    margin-left: 380px;
+}
+.r5,.r4,.r1,#rr{
+    position: relative;
+}
+.slides{
+    position: relative;
+    top: 10px;
+    /* width: 1000px; */
+    /* left: 70px; */
+    padding-left: 10px;
+}
+#r1{
+    top: 0px;
+    left: 8px;
+    display: block;
+}
+#rr{
+    display: block;
+    width: 100%;
+    left: -20px;
+}
+.d-block{
+    width: 95%;
+}
+.c2{
+    position: absolute;
+    left: 20px;
+    
+    
+}
+#newr{
+    width: 1100px;
+    position: relative;
+    left: 10px;
 }
